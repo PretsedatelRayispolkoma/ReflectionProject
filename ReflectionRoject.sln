@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionRoject", "ReflectionRoject\ReflectionRoject.csproj", "{781A275C-8555-4F0C-AA73-B27C6B47B40E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorReflectionProject", "BlazorReflectionProject\BlazorReflectionProject.csproj", "{B56E3E9A-390C-4338-8685-BA6A0CFAA339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{781A275C-8555-4F0C-AA73-B27C6B47B40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781A275C-8555-4F0C-AA73-B27C6B47B40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781A275C-8555-4F0C-AA73-B27C6B47B40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56E3E9A-390C-4338-8685-BA6A0CFAA339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56E3E9A-390C-4338-8685-BA6A0CFAA339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56E3E9A-390C-4338-8685-BA6A0CFAA339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56E3E9A-390C-4338-8685-BA6A0CFAA339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

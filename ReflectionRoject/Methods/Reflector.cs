@@ -23,7 +23,6 @@ namespace ReflectionRoject.Methods
 
         private static void MemberGetter(Type type)
         {
-            ArrayList members = new ArrayList();
             foreach (var item in type.GetMembers())
             {
                 //Console.WriteLine($"{type}, {item.MemberType}, {item.Name}");
