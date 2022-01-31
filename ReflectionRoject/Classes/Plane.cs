@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ReflectionRoject.Classes
 {
-    internal class Plane
+    public class Plane
     {
         private int _countOfEngines;
 
@@ -15,7 +15,7 @@ namespace ReflectionRoject.Classes
         public int CountOfEngines { get => _countOfEngines; set => _countOfEngines = value; }
         public int CountOfSeats { get => _countOfSeats; set => _countOfSeats = value; }
 
-        internal Plane(int countOfEngines, int countOfSeats)
+        public Plane(int countOfEngines, int countOfSeats)
         {
             this.CountOfEngines = countOfEngines;
             this.CountOfSeats = countOfSeats;

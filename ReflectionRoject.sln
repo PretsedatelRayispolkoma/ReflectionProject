@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionRoject", "ReflectionRoject\ReflectionRoject.csproj", "{781A275C-8555-4F0C-AA73-B27C6B47B40E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionRoject", "ReflectionRoject\ReflectionRoject.csproj", "{781A275C-8555-4F0C-AA73-B27C6B47B40E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorReflectionProject", "BlazorReflectionProject\BlazorReflectionProject.csproj", "{B56E3E9A-390C-4338-8685-BA6A0CFAA339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorReflectionProject", "BlazorReflectionProject\BlazorReflectionProject.csproj", "{B56E3E9A-390C-4338-8685-BA6A0CFAA339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

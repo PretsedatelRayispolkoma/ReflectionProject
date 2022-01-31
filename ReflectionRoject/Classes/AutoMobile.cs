@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ReflectionRoject.Classes
 {
-    internal abstract class AutoMobile
+    public abstract class AutoMobile
     {
         private string _brand;
 
@@ -15,7 +15,7 @@ namespace ReflectionRoject.Classes
 
         private string _model;
 
-        internal AutoMobile(string brand, string model)
+        public AutoMobile(string brand, string model)
         {
             this.Brand = brand;
             this.Model = model;

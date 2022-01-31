@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ReflectionRoject.Classes
 {
-    internal class Horse
+    public class Horse
     {
         private string _name;
 
@@ -18,7 +18,7 @@ namespace ReflectionRoject.Classes
         public bool IsMale { get => _isMale; set => _isMale = value; }
         public string Name { get => _name; set => _name = value; }
 
-        internal Horse(string name, int age, bool isMale)
+        public Horse(string name, int age, bool isMale)
         {
             this.Name = name;
             this.Age = age;

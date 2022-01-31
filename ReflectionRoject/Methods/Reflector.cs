@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ReflectionRoject.Methods
 {
-    internal class Reflector
+    public class Reflector
     {
-        internal delegate void GetTypeInfoDelegate(string info);
+        public delegate void GetTypeInfoDelegate(string info);
 
         public static void GetAllTypes(ArrayList arrayList)
         {
@@ -30,6 +30,6 @@ namespace ReflectionRoject.Methods
             }
         }
 
-        internal static event GetTypeInfoDelegate GetTypeInfoEvent;
+        public static event GetTypeInfoDelegate GetTypeInfoEvent;
     }
 }
