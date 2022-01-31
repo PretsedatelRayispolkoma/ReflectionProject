@@ -7,12 +7,12 @@ namespace BlazorReflectionProject.Data
     public class ArrayListComponent : ComponentBase
     {
         public static ArrayList Vehicles { get; set; }
-        Truck truck = new Truck("Mersedis", "Actros", 45, true);
-        Horse horse = new Horse("Apple", 5, false);
         public static List<string> Messages;
 
         protected override Task OnInitializedAsync()
         {
+            Truck truck = new Truck("Mersedis", "Actros", 45, true);
+            Horse horse = new Horse("Apple", 5, false);
             Vehicles = new ArrayList();
             Vehicles.Add(horse);
             Vehicles.Add(truck);
