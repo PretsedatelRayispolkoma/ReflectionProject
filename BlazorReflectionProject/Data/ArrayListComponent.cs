@@ -9,7 +9,7 @@ namespace BlazorReflectionProject.Data
         public static ArrayList Vehicles { get; set; }
         Truck truck = new Truck("Mersedis", "Actros", 45, true);
         Horse horse = new Horse("Apple", 5, false);
-        public static List<string> messages;
+        public static List<string> Messages;
 
         protected override Task OnInitializedAsync()
         {
@@ -17,7 +17,7 @@ namespace BlazorReflectionProject.Data
             Vehicles.Add(horse);
             Vehicles.Add(truck);
 
-            messages = new List<string>();
+            Messages = new List<string>();
 
             ReflectionRoject.Methods.Reflector.GetTypeInfoEvent += ReturnString;
             ReflectionRoject.Methods.Reflector.GetAllTypes(Vehicles);
@@ -28,7 +28,7 @@ namespace BlazorReflectionProject.Data
 
         private static void ReturnString(string message)
         {
-            messages.Add(message);
+            Messages.Add(message);
         }
     }
 }

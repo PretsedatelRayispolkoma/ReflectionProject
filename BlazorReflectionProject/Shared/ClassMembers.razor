@@ -2,17 +2,8 @@
 <h3>ClassMembers</h3>
 
 <div>
-    <table>
-        <thead>
-            <tr>
-                <th>Class</th>
-                <th>Member</th>
-            </tr>
-        </thead>
-    </table>
+    @foreach(var item in Messages)
+    {
+        <h3>@item.ToString()</h3>
+    }
 </div>
-
-@code{
-   
-    
-}
